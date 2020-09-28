@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+
+module.exports.onCreateNode = ({ node, actions }) =>  {
+    const {createNodeField} = actions
+
+    console.log(node)
+}
